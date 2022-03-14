@@ -14,9 +14,9 @@
 /* COLOR SCHEME */
 
 :root {
-    --pink: #ffede2;
-    --blue: #BACDBD;
-    --tan: #f5f2e6;
+  --pink: #ffede2;
+  --blue: #bacdbd;
+  --tan: #f5f2e6;
 }
 
 /* FONT STYLING */
@@ -57,6 +57,7 @@ nav {
   position: sticky;
   top: 30px;
   padding: 50px;
+  z-index: 4;
 }
 
 .logo {
@@ -66,10 +67,22 @@ nav {
 }
 
 .routes {
-  display: flex;
+  display: none;
   position: fixed;
   right: 50px;
   top: 40px;
+}
+
+.menu-closed {
+  position: fixed;
+  right: 50px;
+  top: 70px;
+}
+
+.menu-open {
+  height: 70vh;
+  padding-top: 100px;
+  background-color: var(--pink);
 }
 
 #root {
@@ -79,43 +92,26 @@ nav {
 /* HOME STYLING */
 
 .blurb {
+  font-size: 2.5em;
   text-align: left;
-  margin-left: 100px;
+  margin: 10%;
   background: linear-gradient(to bottom right, rgb(223, 137, 137), purple);
   background-clip: text;
   color: transparent;
 }
 
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) ;
-  grid-template-rows: 200px, auto;
-  column-gap: 10px;;
-  margin-top: 150px;
-}
-
-.left-column {
-  grid-column: 1 / 3;
-}
-
-.right-column {
-  grid-column: 3 / 4;
-}
-
 .center {
-  grid-column: 1 / 4;
-  grid-row: 2 / 3;
-  margin-top: 200px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #button {
   font-size: 2em;
-  font-family: Queensila; 
+  font-family: Queensila;
   letter-spacing: 3px;
   background: linear-gradient(to bottom right, rgb(223, 137, 137), 70%, blue);
   padding: 20px;
-  margin: 50px;
+  margin: 20px 50px;
   text-align: center;
   color: white;
 }
@@ -123,7 +119,7 @@ nav {
 /* FOOTER STYLING */
 
 footer {
-  margin-top: 180px;
+  margin-top: 65px;
   position: sticky;
   bottom: 0;
   text-align: right;
@@ -134,7 +130,6 @@ footer h5 {
   font-weight: lighter;
 }
 
-
 /* ABOUT STYLING */
 
 .projects h3 {
@@ -144,41 +139,217 @@ footer h5 {
 
 .project-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 2%;
 }
 
 .blue-box {
-  background-color: rgb(175, 215, 238);
-  margin-left: 10%;
+  background-color: rgb(179, 221, 192);
+  margin: 5%;
+  margin-top: 20px;
   z-index: 1;
 }
 
 .green-box {
-  background-color: rgb(179, 221, 192);
-  margin-top: 10%;
-  margin-left: 10%;
+  background-color: rgb(175, 215, 238);
+  margin: 5%;
   z-index: 1;
+  margin-top: 20%;
 }
 
 .project-img {
-  margin: 10%;
+  margin: 5%;
   margin-top: 0;
-  width: 800px;
+  width: 90%;
+}
+
+.gradient-border {
+  background: linear-gradient(to bottom right, rgb(223, 137, 137), 70%, blue);
+  margin: 0 5%;
 }
 
 .text-box {
-  width: 600px;
+  margin: 2px;
   text-align: left;
-  padding: 5px 10px;
-  margin-right: 10%;
-  margin-top: 36%;
+  padding: 10px;
   z-index: 3;
+  background-color: var(--pink);
 }
 
 .projects p {
-  line-height: 25px;
+  line-height: 20px;
   font-family: Queensila;
-  font-size: 1.2em;
-  letter-spacing: 1.5px;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    letter-spacing: 4px;
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+    padding: 0 20px;
+  }
+
+  /* NAV STYLING */
+
+  .routes {
+    display: flex;
+  }
+
+  .menu-closed {
+    display: none;
+  }
+
+  /* HOME STYLING */
+
+  .blurb {
+    text-align: left;
+    margin-left: 100px;
+    background: linear-gradient(to bottom right, rgb(223, 137, 137), purple);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px, auto;
+    column-gap: 10px;
+    margin-top: 150px;
+  }
+
+  .left-column {
+    grid-column: 1 / 3;
+  }
+
+  .right-column {
+    grid-column: 3 / 4;
+  }
+
+  .center {
+    flex-direction: row;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    margin-top: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #button {
+    padding: 20px;
+    margin: 50px;
+
+  }
+
+  /* FOOTER STYLING */
+  footer {
+    margin-top: 180px;
+  }
+
+  /* ABOUT STYLING */
+
+  .project-img {
+    margin: 10%;
+    margin-top: 0;
+    width: 400px;
+  }
+
+  .project-container {
+    flex-direction: row;
+    margin-top: 2%;
+  }
+
+  .blue-box {
+    margin-left: 10%;
+  }
+
+  .green-box {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .gradient-border {
+    background: none;
+    margin: 0;
+  }
+
+  .text-box {
+    padding: 5px 10px;
+    margin-right: 10%;
+    margin-top: 36%;
+  }
+
+  .green {
+    margin-top: 75%;
+  }
+
+  .projects p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  .github-link {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  /* ABOUT STYLING */
+
+  .project-img {
+    width: 600px;
+  }
+
+  .projects p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .github-link {
+    font-size: 1.4em;
+  }
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+   /* ABOUT STYLING */
+
+  .project-img {
+    margin: 10%;
+    margin-top: 0;
+    width: 800px;
+  }
+
+  .project-container {
+    flex-direction: row;
+    margin-top: 2%;
+  }
+
+  .blue-box {
+    margin-left: 10%;
+  }
+
+  .green-box {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .gradient-border {
+    background: none;
+    margin: 0;
+  }
+
+  .text-box {
+    padding: 5px 10px;
+    margin-right: 10%;
+  }
+
+
 }
