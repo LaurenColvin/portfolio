@@ -14,11 +14,11 @@ import Work from "./Work/Work";
 import About from "./About/About";
 
 let menu = <FontAwesomeIcon icon={faBars} size="2x" style={{color: '#AB4289'}}/>
-let htmlIcon = <FontAwesomeIcon icon={faHtml5} size="2x" style={{color: '#AB4289'}}/>
-let cssIcon = <FontAwesomeIcon icon={faCss3Alt} size="2x" style={{color: '#AB4289'}}/>
-let reactIcon = <FontAwesomeIcon icon={faReact} size="2x" style={{color: '#AB4289'}}/>
-let jsIcon = <FontAwesomeIcon icon={faJsSquare} size="2x" style={{color: '#AB4289'}}/>
-let githubIcon = <FontAwesomeIcon icon={faGithub} size="2x" style={{color: '#AB4289'}}/>
+let htmlIcon = <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: '#AB4289'}}/>
+let cssIcon = <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: '#AB4289'}}/>
+let reactIcon = <FontAwesomeIcon icon={faReact} size="3x" style={{color: '#AB4289'}}/>
+let jsIcon = <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: '#AB4289'}}/>
+let githubIcon = <FontAwesomeIcon icon={faGithub} size="3x" style={{color: '#AB4289'}}/>
 
 
 
