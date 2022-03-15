@@ -9,6 +9,7 @@ import {faReact} from '@fortawesome/free-brands-svg-icons'
 import {faJsSquare} from '@fortawesome/free-brands-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 
+import ScrollTop from "./ScrollTop/ScrollTop";
 import Home from "./Home/Home";
 import Work from "./Work/Work";
 import About from "./About/About";
@@ -55,11 +56,13 @@ const handleToggle = () => {
         )}
       </nav>
       <div className="main">
+      <ScrollTop>
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/work" element={<Work />}/>
-            <Route path="/about" element={<About githubIcon={githubIcon} jsIcon={jsIcon} reactIcon={reactIcon} cssIcon={cssIcon} htmlIcon={htmlIcon} />}/>
-        </Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/work" element={<Work />}/>
+              <Route path="/about" element={<About githubIcon={githubIcon} jsIcon={jsIcon} reactIcon={reactIcon} cssIcon={cssIcon} htmlIcon={htmlIcon} />}/>
+          </Routes>
+      </ScrollTop>
       </div>
       <footer>
         <h5>Created and Designed by Lauren Colvin</h5>
