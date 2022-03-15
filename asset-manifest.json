@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.945f7bc8.css",
+    "main.js": "/static/js/main.6edb1db0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Headshot-colorful.JPG": "/static/media/Headshot-colorful.805868af138efaf5fcfc.JPG",
+    "static/media/Podcast-Project-1.png": "/static/media/Podcast-Project-1.bafc1b81b3b2bc51a4de.png",
+    "static/media/Critterpedia-project-2.png": "/static/media/Critterpedia-project-2.1aa179762340cf45bcf6.png",
+    "static/media/Gyahegi.otf": "/static/media/Gyahegi.ee0e2a5679702bb1a153.otf",
+    "static/media/Queensila.ttf": "/static/media/Queensila.904042eb3bb8a05512eb.ttf",
+    "index.html": "/index.html",
+    "main.945f7bc8.css.map": "/static/css/main.945f7bc8.css.map",
+    "main.6edb1db0.js.map": "/static/js/main.6edb1db0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945f7bc8.css",
+    "static/js/main.6edb1db0.js"
+  ]
+}
