@@ -9,5 +9,7 @@ For this project I wanted to create a clean, aesthetically pleasing website to s
 
 ## Coding Projects
 
-:sparkles: ###Critterpedia
+:sparkles: 
+### Critterpedia
+
 Visit the [site](https://laurencolvin.github.io/project-2-react/) and check out the [github](https://github.com/LaurenColvin/project-2-react) repository
