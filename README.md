@@ -1,8 +1,6 @@
-# Portfolio
-Lauren Colvin's Portfolio
-- [laurencolvin.com](https://www.laurencolvin.com/)
-
 # Project Overview
+[www.laurencolvin.com](https://www.laurencolvin.com/)
+
 Portfolio Website using React components, routes and responsive CSS design.
 
 ## Project Description
