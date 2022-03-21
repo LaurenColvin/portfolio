@@ -14,12 +14,12 @@ import Home from "./Home/Home";
 import Work from "./Work/Work";
 import About from "./About/About";
 
-let menu = <FontAwesomeIcon icon={faBars} size="2x" style={{color: '#AB4289'}}/>
-let htmlIcon = <FontAwesomeIcon icon={faHtml5} size="3x" style={{color: '#AB4289'}}/>
-let cssIcon = <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: '#AB4289'}}/>
-let reactIcon = <FontAwesomeIcon icon={faReact} size="3x" style={{color: '#AB4289'}}/>
-let jsIcon = <FontAwesomeIcon icon={faJsSquare} size="3x" style={{color: '#AB4289'}}/>
-let githubIcon = <FontAwesomeIcon icon={faGithub} size="3x" style={{color: '#AB4289'}}/>
+let menu = <FontAwesomeIcon className='icon' icon={faBars} size="2x" style={{color: '#AB4289'}}/>
+let htmlIcon = <FontAwesomeIcon className='icon'icon={faHtml5} size="3x" style={{color: '#AB4289'}}/>
+let cssIcon = <FontAwesomeIcon className='icon'icon={faCss3Alt} size="3x" style={{color: '#AB4289'}}/>
+let reactIcon = <FontAwesomeIcon className='icon'icon={faReact} size="3x" style={{color: '#AB4289'}}/>
+let jsIcon = <FontAwesomeIcon className='icon'icon={faJsSquare} size="3x" style={{color: '#AB4289'}}/>
+let githubIcon = <FontAwesomeIcon className='icon'icon={faGithub} size="3x" style={{color: '#AB4289'}}/>
 
 
 
@@ -31,11 +31,15 @@ const handleToggle = () => {
   setMenuOpen(prev => !prev)
 }
 
+const handleClose = () => {
+  setMenuOpen(false)
+}
+
   return (
     <div className="App">
       <nav>
         <div className="logo">
-          <Link className="link" to="/"><h2>LC</h2></Link>
+          <Link onClick={handleClose} className="link" to="/"><h2>LC</h2></Link>
         </div>
         <div className="routes">
           <Link className="link" to="/work"><h3>work</h3></Link>
