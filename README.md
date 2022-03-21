@@ -1,4 +1,4 @@
-# Project Overview
+# :star2: Welcome to my Portfolio :star2: 
 [www.laurencolvin.com](https://www.laurencolvin.com/)
 
 Portfolio Website using React components, routes and responsive CSS design.
@@ -18,3 +18,10 @@ This was my very first coding project creating a website using HTML, CSS and Jav
 
 Visit the [site](https://laurencolvin.github.io/project-2-react/) and the [github](https://github.com/LaurenColvin/project-2-react) repository.  
 Critterpedia is a React App using third-party API data from the video game Animal Crossing. You can search for critters by month and add critters to your caught library. You can also view all bugs, fish or diving critters on their own pages. Scroll through to see all of the things you have yet to catch and plan your strategy based on month.
+
+## About Me
+
+- :surfer: I love getting in a morning surf.
+- :cat2: I have an adorable orange cat named Louie!.
+- :earth_americas: I am passionate about sustainability, especially in the fashion industry.
+- :performing_arts: I grew up performing and will never miss and opportunity to watch a musical!
