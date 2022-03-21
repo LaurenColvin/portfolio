@@ -1,5 +1,8 @@
+import Work from "../Work/Work";
+
 const Home = () => {
   return (
+    <div>
     <div className="home-grid">
       <div className="left-column">
         <h1 className="blurb">
@@ -26,6 +29,8 @@ const Home = () => {
           Linkedin
         </a>
       </div>
+    </div>
+    {/* <Work/> */}
     </div>
   );
 };
