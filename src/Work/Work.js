@@ -1,38 +1,41 @@
 import projectOne from "/Users/lauren/SEI/portfolio/src/assets/Podcast-Project-1.png";
 import projectTwo from "/Users/lauren/SEI/portfolio/src/assets/Critterpedia-project-2.png";
+import projectThree from "/Users/lauren/SEI/portfolio/src/assets/My-Health-App.png";
 
 const Work = () => {
   return (
     <div className="projects">
       <div className="project-container">
-        <div className="blue-box">
+        <div className="purple-box">
           <h3>
-            Project One:
-            <br /> HTML, CSS, JavaScript
+            Project Three:
+            <br /> MERN Fullstack Application
           </h3>
           <a
-            href="https://laurencolvin.github.io/Portfolio-Project-1/"
+            href="https://laurencolvin.github.io/my-health-client/"
             target="_blank"
           >
             <img
               className="project-img"
-              src={projectOne}
-              alt="Podcast-project-1"
+              src={projectThree}
+              alt="My-health-app"
             />
           </a>
         </div>
         <div className="gradient-border">
           <div className="text-box">
             <p>
-              For this project we were tasked with creating a website that was
-              designed mobile first, using grid or flex box, and javascript
-              functions. I decided to re-create my podcast website from scratch,
-              adding in scroll functions, animations and playing with z-index
-              for my text and images on top of divs.
+              For this project we were put on teams of four to create a
+              fullstack application in one week. I worked on both the Mongodb
+              and Express backend database as well as the frontend React App.
+              Specifically I focused on the javascript functionality of the
+              daily tracker form and updating the data through post requests. I
+              also created filtering functions for the My Health weekly and
+              daily views and added bootstrap modals and progress bars.
             </p>
             <a
               className="github-link"
-              href="https://github.com/LaurenColvin/Portfolio-Project-1"
+              href="https://github.com/LaurenColvin/my-health-client"
             >
               Github
             </a>
@@ -68,6 +71,41 @@ const Work = () => {
             <a
               className="github-link"
               href="https://github.com/LaurenColvin/project-2-react"
+            >
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="project-container">
+        <div className="blue-box">
+          <h3>
+            Project One:
+            <br /> HTML, CSS, JavaScript
+          </h3>
+          <a
+            href="https://laurencolvin.github.io/Portfolio-Project-1/"
+            target="_blank"
+          >
+            <img
+              className="project-img"
+              src={projectOne}
+              alt="Podcast-project-1"
+            />
+          </a>
+        </div>
+        <div className="gradient-border">
+          <div className="text-box">
+            <p>
+              For this project we were tasked with creating a website that was
+              designed mobile first, using grid or flex box, and javascript
+              functions. I decided to re-create my podcast website from scratch,
+              adding in scroll functions, animations and playing with z-index
+              for my text and images on top of divs.
+            </p>
+            <a
+              className="github-link"
+              href="https://github.com/LaurenColvin/Portfolio-Project-1"
             >
               Github
             </a>
