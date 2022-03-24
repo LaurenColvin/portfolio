@@ -29,6 +29,14 @@ const Home = () => {
         >
           Linkedin
         </a>
+        <a
+          className="link"
+          id="button"
+          href="mailto:lcolvin2013@gmail.com"
+          target="_blank"
+        >
+          Contact Me
+        </a>
       </div>
     </div>
     {/* <Work/> */}
