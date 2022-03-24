@@ -34,7 +34,7 @@ const About = (props) => {
       <li>Walks on the beach for sunset</li>
       <li>My fluffy orange cat, Louie</li>
       <li>Cooking new recipes</li>
-      <li>Gardening on my deck</li>
+      <li>Planting succulent gardens</li>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import Work from "../Work/Work";
+import Resume from "../assets/Lauren Colvin Resume.pdf"
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
         <a
           className="link"
           id="button"
-          href="https://drive.google.com/file/d/1v4_cmWjYucDVhR3n9FIy0Fe8HgadRpDt/view?usp=sharing"
-          target="_blank"
+          href={Resume}
+          download="Lauren Colvin Resume.pdf"
         >
           Resume
         </a>
