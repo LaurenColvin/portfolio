@@ -64,6 +64,7 @@ nav {
   position: fixed;
   left: 50px;
   top: 30px;
+  z-index: 3;
 }
 
 .routes {
@@ -81,8 +82,13 @@ nav {
 
 .menu-open {
   height: 70vh;
-  padding-top: 100px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 100%;
+  padding-top: 150px;
   background-color: var(--pink);
+  z-index: 2;
 }
 
 #root {
@@ -147,15 +153,22 @@ footer h5 {
   margin-top: 2%;
 }
 
-.blue-box {
+.purple-box {
   background-color: rgb(179, 221, 192);
   margin: 5%;
   margin-top: 20px;
   z-index: 1;
 }
 
+.blue-box {
+  background-color: rgb(212, 182, 229);
+  margin: 5%;
+  margin-top: 20px;
+  z-index: 1;
+}
+
 .green-box {
-  background-color: rgb(175, 215, 238);
+  background-color: rgb(175, 215, 238); 
   margin: 5%;
   z-index: 1;
   margin-top: 20%;
