@@ -30,11 +30,11 @@ const About = (props) => {
         {props.reactIcon}
         {props.githubIcon}
       </div>
-      <h2>Current Obsessions</h2>
-      <li>Walks on the beach for sunset</li>
-      <li>My fluffy orange cat, Louie</li>
-      <li>Cooking new recipes</li>
-      <li>Planting succulent gardens</li>
+      <h2>My Happy Place</h2>
+      <li><span>&#127965;</span> Walking on the beach for sunset</li>
+      <li><span>&#128008;</span>  Cuddling my cat, Louie</li>
+      <li><span>&#129383;</span> Cooking new recipes</li>
+      <li><span>&#127793;</span> Planting succulent gardens</li>
     </div>
   );
 };

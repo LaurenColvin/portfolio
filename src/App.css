@@ -153,6 +153,13 @@ footer h5 {
   margin-top: 2%;
 }
 
+.pink-box {
+  background-color: rgb(221, 179, 219);
+  margin: 5%;
+  margin-top: 20px;
+  z-index: 1;
+}
+
 .purple-box {
   background-color: rgb(179, 221, 192);
   margin: 5%;
@@ -248,9 +255,14 @@ footer h5 {
   font-family: Queensila;
   font-size: 1.3em;
   margin: 0 auto;
-  line-height: 35px;
+  line-height: 50px;
   letter-spacing: 1px;
   font-weight: bold;
+  list-style-type: none;
+}
+
+.about span {
+  font-size: 1.8em;
 }
 
 .about p {
@@ -269,16 +281,6 @@ footer h5 {
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-
-/* .icon {
-  color: #AB4289;
-}
-
-.icon:hover {
-  color: rgb(236, 173, 183);
-} */
-
-
 
 
 
@@ -360,6 +362,7 @@ footer h5 {
   .project-img {
     margin: 10%;
     margin-top: 0;
+    margin-right: 20px;
     width: 400px;
   }
 
@@ -475,6 +478,15 @@ footer h5 {
   .text-box {
     padding: 5px 10px;
     margin-right: 10%;
+  }
+
+  .about {
+    margin: 0 8%;
+  }
+
+  .intro-text {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 

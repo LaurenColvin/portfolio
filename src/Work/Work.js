@@ -1,10 +1,48 @@
 import projectOne from "/Users/lauren/SEI/portfolio/src/assets/Podcast-Project-1.png";
 import projectTwo from "/Users/lauren/SEI/portfolio/src/assets/Critterpedia-project-2.png";
 import projectThree from "/Users/lauren/SEI/portfolio/src/assets/My-Health-App.png";
+import capstoneProject from "/Users/lauren/SEI/portfolio/src/assets/Wishlist-App.png"
 
 const Work = () => {
   return (
     <div className="projects">
+      <div className="project-container">
+        <div className="pink-box">
+          <h3>
+            Capstone Project:
+            <br /> MERN Fullstack Application
+          </h3>
+          <a
+            href="https://laurencolvin.github.io/wishlist-client/#/"
+            target="_blank"
+          >
+            <img
+              className="project-img"
+              src={capstoneProject}
+              alt="Wishlist-app"
+            />
+          </a>
+        </div>
+        <div className="gradient-border">
+          <div className="text-box">
+            <p>
+              My capstone project showcases a fullstack MERN application with a
+              MongoDB and Express backend and a React and Node front end. This
+              application features responsive design, multiple React components,
+              countless useStates, props and ternary operators, and
+              sophisticated CSS designs. I am especially proud of my backend
+              user model that can track a user's wishlist, cart, and wardrobe
+              items with full CRUD functionality.
+            </p>
+            <a
+              className="github-link"
+              href="https://github.com/LaurenColvin/wishlist-client"
+            >
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="project-container">
         <div className="purple-box">
           <h3>
