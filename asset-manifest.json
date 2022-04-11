@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.83bdc20f.css",
-    "main.js": "/static/js/main.af9bea97.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.f0ef1e60.css",
+    "main.js": "/static/js/main.e69a67d3.js",
+    "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
     "static/media/Headshot-colorful.JPG": "/static/media/Headshot-colorful.805868af138efaf5fcfc.JPG",
+    "static/media/Wishlist-App.png": "/static/media/Wishlist-App.51e429273019c2ac2c7f.png",
     "static/media/My-Health-App.png": "/static/media/My-Health-App.3e3a451fc67aba44245a.png",
     "static/media/Podcast-Project-1.png": "/static/media/Podcast-Project-1.bafc1b81b3b2bc51a4de.png",
     "static/media/Critterpedia-project-2.png": "/static/media/Critterpedia-project-2.1aa179762340cf45bcf6.png",
@@ -11,12 +12,12 @@
     "static/media/Queensila.ttf": "/static/media/Queensila.904042eb3bb8a05512eb.ttf",
     "static/media/Lauren Colvin Resume.pdf": "/static/media/Lauren Colvin Resume.9b35bc28881ea07ab0d0.pdf",
     "index.html": "/index.html",
-    "main.83bdc20f.css.map": "/static/css/main.83bdc20f.css.map",
-    "main.af9bea97.js.map": "/static/js/main.af9bea97.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.f0ef1e60.css.map": "/static/css/main.f0ef1e60.css.map",
+    "main.e69a67d3.js.map": "/static/js/main.e69a67d3.js.map",
+    "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bdc20f.css",
-    "static/js/main.af9bea97.js"
+    "static/css/main.f0ef1e60.css",
+    "static/js/main.e69a67d3.js"
   ]
 }
