@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0ef1e60.css",
-    "main.js": "/static/js/main.790fe431.js",
+    "main.css": "/static/css/main.0f7e42ce.css",
+    "main.js": "/static/js/main.22d0ea00.js",
     "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
+    "static/media/Los-Angeles.jpg": "/static/media/Los-Angeles.ac9811076b9b5d4128fe.jpg",
     "static/media/Headshot-colorful.JPG": "/static/media/Headshot-colorful.805868af138efaf5fcfc.JPG",
+    "static/media/web-design-example.png": "/static/media/web-design-example.4ed0a03582d5b6b8411e.png",
+    "static/media/dark-headshot.jpg": "/static/media/dark-headshot.86438e00b7f871cf634e.jpg",
+    "static/media/Headshot.jpg": "/static/media/Headshot.f3018b635202fa320583.jpg",
+    "static/media/Workspace.jpg": "/static/media/Workspace.81726c09a6c6a54ceb10.jpg",
     "static/media/Wishlist-App.png": "/static/media/Wishlist-App.51e429273019c2ac2c7f.png",
     "static/media/My-Health-App.png": "/static/media/My-Health-App.3e3a451fc67aba44245a.png",
     "static/media/Podcast-Project-1.png": "/static/media/Podcast-Project-1.bafc1b81b3b2bc51a4de.png",
+    "static/media/Web Design.png": "/static/media/Web Design.4dfb21c9acccf2571e68.png",
+    "static/media/aesthetic.jpg": "/static/media/aesthetic.37f727d95e47e38511e6.jpg",
     "static/media/Critterpedia-project-2.png": "/static/media/Critterpedia-project-2.1aa179762340cf45bcf6.png",
-    "static/media/Gyahegi.otf": "/static/media/Gyahegi.ee0e2a5679702bb1a153.otf",
-    "static/media/Queensila.ttf": "/static/media/Queensila.904042eb3bb8a05512eb.ttf",
-    "static/media/Lauren Colvin Resume.pdf": "/static/media/Lauren Colvin Resume.cd253a1acf1edb1dfd2a.pdf",
+    "static/media/Lauren Colvin Resume.pdf": "/static/media/Lauren Colvin Resume.87fb8e8c8e160e402793.pdf",
+    "static/media/Louis George Cafe Light.ttf": "/static/media/Louis George Cafe Light.39945fcd312e86adc356.ttf",
     "index.html": "/index.html",
-    "main.f0ef1e60.css.map": "/static/css/main.f0ef1e60.css.map",
-    "main.790fe431.js.map": "/static/js/main.790fe431.js.map",
+    "main.0f7e42ce.css.map": "/static/css/main.0f7e42ce.css.map",
+    "main.22d0ea00.js.map": "/static/js/main.22d0ea00.js.map",
     "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0ef1e60.css",
-    "static/js/main.790fe431.js"
+    "static/css/main.0f7e42ce.css",
+    "static/js/main.22d0ea00.js"
   ]
 }
