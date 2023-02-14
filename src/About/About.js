@@ -1,4 +1,4 @@
-import headshot from "/Users/lauren/SEI/portfolio/src/assets/Headshot-colorful.JPG";
+import headshot from "../assets/Headshot-colorful.JPG";
 
 const About = (props) => {
   return (
