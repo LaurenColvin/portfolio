@@ -1,7 +1,7 @@
-import projectOne from "/Users/lauren/SEI/portfolio/src/assets/Podcast-Project-1.png";
-import projectTwo from "/Users/lauren/SEI/portfolio/src/assets/Critterpedia-project-2.png";
-import projectThree from "/Users/lauren/SEI/portfolio/src/assets/My-Health-App.png";
-import capstoneProject from "/Users/lauren/SEI/portfolio/src/assets/Wishlist-App.png"
+import projectOne from "../assets/Podcast-Project-1.png";
+import projectTwo from "../assets/Critterpedia-project-2.png";
+import projectThree from "../assets/My-Health-App.png";
+import capstoneProject from "../assets/Wishlist-App.png"
 
 const Work = () => {
   return (
