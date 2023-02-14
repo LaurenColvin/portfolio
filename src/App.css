@@ -309,8 +309,16 @@ footer h5 {
 
 @media only screen and (max-width: 768px) {
 
+  .logo {
+    padding: 8px 30px;
+  }
+
+  .headshot {
+    height: 500px;
+  }
+
   .mobile-column {
-    height: 650px;
+    height: 500px;
     border: 2px solid;
   }
 
@@ -327,6 +335,18 @@ footer h5 {
 
   .blurb {
     margin-top: 25%;
+  }
+
+  .blurb h3{
+    font-size: 1.3em;
+  }
+
+  .blurb-two h3 {
+    font-size: 1.5em;
+  }
+
+  .blurb-three h3 {
+    font-size: 1.3em;
   }
 
   .center {
